@@ -19,5 +19,5 @@ npm install
 npm start
 ##Build
 npm run build && cd build && live-server (or some web server)
-##Checkout on [http://12.ukris-myappp.appspot.com](http://12.ukris-myappp.appspot.com)
+##Checkout on [http://12.ukris-myapp.appspot.com](http://12.ukris-myapp.appspot.com)
 
