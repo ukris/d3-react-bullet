@@ -11,12 +11,13 @@
 
 ##Clone
 [git clone https://github.com/ukris/d3-react-bullet.git](https://github.com/ukris/d3-react-bullet.git)
-
-##Install
+## Run
+cd build && live-server (or some web server)
+##Install (from scratch)
 npm install
 ##Run
 npm start
 ##Build
 npm run build && cd build && live-server (or some web server)
-##Checkout on [yewno.ukris-myappp.appspot.com](yewno.ukris-myappp.appspot.com)
+##Checkout on [12.ukris-myappp.appspot.com](12.ukris-myappp.appspot.com)
 
