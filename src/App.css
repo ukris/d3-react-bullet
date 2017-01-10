@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+h4 {
+  font-size:16px;
+  margin:10px;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width:350px;
+  background-color: #f6f6f6;
+}
+
+button {
+  padding: 25px 45px;
+  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  color: #fff;
+  background: #448AFF;
+  border: 0;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+}
+button:hover {
+  box-shadow: 0px 6px 8px -3px rgba(0, 0, 0, 0.3);
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+button:focus {
+  outline: none;
+}
+

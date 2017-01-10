@@ -1,0 +1,50 @@
+
+.bullet { font: 10px sans-serif; }
+.bullet .title { font-size: 12px; font-weight: bold; }
+.bullet .subtitle {font-size: 10px;}
+
+.bullet.default .marker { stroke: #000; stroke-width: 2px; }
+.bullet.default .axis line, .bullet .axis path { stroke: #666; stroke-width: .5px; fill: none; }
+.bullet.default .range.s0 { fill: #eee; }
+.bullet.default .range.s1 { fill: #ddd; }
+.bullet.default .range.s2 { fill: #ccc; }
+.bullet.default .measure.s0 { fill: lightsteelblue; }
+.bullet.default .measure.s1 { fill: steelblue; }
+
+.bullet.default .title{fill:#000;}
+.bullet.default .subtitle{fill:#999;}
+
+.bullet.metro .marker { stroke: rgb(250,83,83); stroke-width: 5px; }
+.bullet.metro .axis line, .bullet .axis path { stroke: #F7F5F5; stroke-width: .5px; fill: none; }
+.bullet.metro .range.s0 { fill: #FFFFB3; }
+.bullet.metro .range.s1 { fill: #FFE4B3; }
+.bullet.metro .range.s2 { fill: #FFB3B3; }
+.bullet.metro .measure.s0 { fill: #3F51B5; }
+.bullet.metro .measure.s1 { fill: #3F51B5; }
+.bullet.default .title{fill:#000;}
+.bullet.default .subtitle{fill:#999;}
+.triangle {
+    stroke: #000;
+    stroke-width: 1.5px;
+    z-index:90;
+}
+.high-text {
+	fill: rgb(30,113,184) !important;
+}
+.high {
+	stroke: rgb(30,113,184) ;
+	fill: rgb(30,113,184) !important;
+}
+.high-marker {
+	stroke: rgb(30,113,184) !important;
+}
+.low-marker {
+	stroke: rgb(196,58,52) !important;
+}
+.low-text {
+	fill: rgb(196,58,52) !important;	
+}
+.low {
+	stroke: rgb(196,58,52) ;
+	fill: rgb(196,58,52) ;
+}

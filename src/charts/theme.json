@@ -1,0 +1,59 @@
+{ 
+  "metro": {
+    "charts": {
+      "font": "10 px Roboto sans-serif",
+      "marker": { "stroke": "rgb(250,83,83)", "strokeWidth": "5px","style":{
+        "length" :"100%"
+      } },
+      "axis":{ "stroke": "#F7F5F5", "strokeWidth": ".5px","fill": "none" },
+      "range":{
+        "s0": {"fill": "#FFFFB3"},
+        "s1": {"fill": "#FFE4B3"},
+        "s2": {"fill": "FFB3B3" }
+      },
+      "measure": {
+        "s0": {
+          "fill": "#3F51B5"
+        },
+        "s1": {
+          "fill": "#3F51B5"
+        } 
+      },
+      "title":{
+        "style":{
+          "fill": "#fff"
+        },
+        "position":"side"
+      },
+      "subtitle":{
+        "style":{
+          "fill": "#fff"
+        }
+      }
+    },
+    "group":{
+      "horizontal": {
+        "height": 75,
+        "width": 200,
+        "margin": {
+          "top": 5,
+          "right": 10,
+          "bottom": 20,
+          "left": 20
+        }
+      }
+    }
+  },
+
+  "helpers":{
+    "triangle" : {
+      "d":"M0,5L5,-5 -5,-5Z"
+    }
+  },
+  "high":{
+    "color":"3F51B5"
+  },
+  "low":{
+    "color":"D30505"
+  }
+ } 

@@ -1,0 +1,65 @@
+* {
+box-sizing: border-box;
+}
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+html,
+body {
+  background-color: #fff;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  min-width:400px;
+}
+html, html * {
+  font-family: Roboto;
+}
+.dashboard {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+  
+.metro {
+  background-color: rgb(54,59,78) !important;
+  color: #fff;
+}
+.metro2 {
+  background-color: #f24c4c !important;
+  color: #fff;
+}
+.metro3 {
+  background-color: #28C2D1 !important;
+  color: #fff;
+}
+.default {
+  background-color:#fff;
+  color: black;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items:stretch;
+  flex-wrap: nowrap;
+}
+.column-content {
+
+}
+.row-content {
+  display:flex;
+  justify-content: center;
+}
+.item{
+  flex-basis: 320px;
+  height: 40%;
+  box-shadow: 3px 3px 1px 0 rgba(230, 230, 230, 1);
+  margin: 10px;
+  border-radius: 5px;
+}
+.narrow {
+  flex-basis:250px !important;
+  max-width:200px !important;
+}
+

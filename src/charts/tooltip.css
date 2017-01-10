@@ -1,0 +1,26 @@
+.cover-tooltip {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 999;
+    color: black;
+}
+
+.tooltip .tooltip-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 10px 0px;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    padding: 10px;
+    color: white;
+    position: absolute;
+}
+
+.tooltip .tooltip-row {
+
+}

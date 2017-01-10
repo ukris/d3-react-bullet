@@ -1,0 +1,49 @@
+[ 
+ { "vertical":false,
+   "title" :"Horiznotal - Default + Reverse",
+  "charts":[{"title":"Revenue","subtitle":"US$, in thousands","ranges":[150,225,300],"measures":[220,270],"markers":[250]},
+  {"title":"Profit","subtitle":"%","ranges":[20,25,30],"measures":[21,23],"markers":[26],"reverse":true}
+ ]},
+  { "vertical":false,
+   "title" :"Default + Conditional Marker/Text",
+  "charts":[
+  	{"title":"Orders","subtitle":"US$, average","ranges":[100,200,300],"measures":[100,320],"markers":[275],"triangle":"high"},	
+  	{"title":"Satisfaction","subtitle":"out of 5","ranges":[3.5,4.25,5],"measures":[3.2,4.7],"markers":[2.4],"triangle":"low"}
+	 ]
+ },
+ { "vertical":false,
+   "title" :"Custom Short",
+  "theme": "metro",
+  "class": "narrow",
+  "charts":[
+    {"title":"Orders","subtitle":"US$, average","ranges":[100,200],"measures":[100,150],"markers":[175]}, 
+    {"title":"Survey","subtitle":"out of 5","ranges":[3,4,5],"measures":[3,4],"markers":[2]}
+   ]
+ },
+  { "vertical":true,
+  	"class":"narrow",
+   "title" :"Vertical - Default+Reverse",
+  "charts":[{"title":"Revenue","subtitle":"US$, in thousands","ranges":[150,225,300],"measures":[220,270],"markers":[250]},
+  {"title":"Profit","subtitle":"%","reverse":true,"ranges":[20,25,30],"measures":[21,23],"markers":[26]}
+ ]},
+  { "vertical":true,
+   "title" :"Default - Conditional Marker/Text",
+  	"class":"narrow",
+  "charts":[
+  	{"title":"Orders","subtitle":"US$, average","ranges":[100,200,300],"measures":[100,320],"markers":[275],"triangle":"high"},	
+  	{"title":"Survey","subtitle":"out of 5","ranges":[3.5,4.25,5],"measures":[3.2,4.7],"markers":[2.4],"triangle":"low"}
+	 ]
+ },
+ { "vertical":true,
+   "title" :"Custom Theme",
+ 	"theme": "metro",
+ 	"class": "narrow",
+  "charts":[
+  	{"title":"Orders","subtitle":"US$, average","ranges":[100,200,300],"measures":[100,320],"markers":[275]},	
+  	{"title":"Survey","subtitle":"out of 5","ranges":[3.5,4.25,5],"measures":[3.2,4.7],"markers":[2.4]}
+	 ]
+ }
+
+]
+
+
